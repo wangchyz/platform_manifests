@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="xxmmy" fetch="https://github.com/Xxmmy" revision="master" />
   <remote  name="openvmi" fetch="https://github.com/DockDroid" revision="master" />
   <remote  name="anbox" fetch="https://github.com/anbox/" revision="anbox/master" />
 
@@ -30,7 +31,7 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/openvmi" name="platform_device_openvmi" groups="pdk" remote="openvmi" />
+  <project path="device/openvmi" name="platform_device_openvmi" groups="pdk" remote="xxmmy" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
